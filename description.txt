@@ -1,0 +1,6 @@
+What problem does your app solve or what purpose does it serve? My project will be an eBay Product tracker web app. This will give people the ability to track the types of products they are interested in buying on eBay and set a target price that they would like to pay.
+
+Who is the intended user? The intended user is somebody who shops on eBay and wants an easier way to organize products that they are interested and look for good prices. Instead of tracking one specific listing, users will be able to add a type of product, such as a GPU, game, shoe, etc. 
+
+What actions will users be able to perform (e.g., sign up, add items, search,
+comment, etc.)? Users will be able to create an account, log in, and add products to their personal tracking list. For each product, the user will be able to enter information such as the product name, search term, category, and target price. As the project develops, users will also be able to view their tracked products, edit their info, and delete products they no longer want to track.
