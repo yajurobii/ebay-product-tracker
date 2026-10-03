@@ -17,3 +17,7 @@ The relationship between USER and TRACKED_PRODUCT is a one-to-many relationship.
 1. A USER may track zero or many TRACKED_PRODUCTS.
 
 2. Each TRACKED_PRODUCT must be tracked by exactly one USER.
+
+## Entity Relationship Diagram
+
+[View the ERD (PDF)](docs/ERD.pdf)
