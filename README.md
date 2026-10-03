@@ -1,6 +1,6 @@
 eBay Product Tracker
 
-Project Description
+## Project Description
 
 The eBay Product Tracker is a web application that allows users to track types of products they are interested in purchasing on eBay and set a target price they would like to pay.
 
@@ -9,3 +9,11 @@ The intended users are people who shop on eBay and want an easier way to organiz
 Users will be able to create an account, log in, and add products to their personal tracking list. For each product, the user will be able to enter information such as the product name, search term, category, and target price.
 
 As the project develops, users will also be able to view their tracked products, edit their information, and delete products they no longer want to track. In the future, the application could be expanded to retrieve matching eBay listings and compare their prices to the user’s target price.
+
+## Business Rules
+
+The relationship between USER and TRACKED_PRODUCT is a one-to-many relationship.
+
+1. A USER may track zero or many TRACKED_PRODUCTS.
+
+2. Each TRACKED_PRODUCT must be tracked by exactly one USER.
