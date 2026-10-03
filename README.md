@@ -20,4 +20,6 @@ The relationship between USER and TRACKED_PRODUCT is a one-to-many relationship.
 
 ## Entity Relationship Diagram
 
+![eBay Product Tracker ERD](images/ERD.png)
+
 [View the ERD (PDF)](docs/ERD.pdf)
