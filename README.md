@@ -20,6 +20,33 @@ The relationship between USER and TRACKED_PRODUCT is a one-to-many relationship.
 
 ## Entity Relationship Diagram
 
+The ERD shows the structure of the eBay Product Tracker database. It displays the USER and TRACKED_PRODUCT entities, their attributes, and the one-to-many relationship between them.
+
 ![eBay Product Tracker ERD](images/ERD.png)
 
 [View the ERD (PDF)](docs/ERD.pdf)
+
+## Relational Schema
+
+The relational schema shows how the entities from the ERD are represented
+as relations in the database. It identifies the primary and foreign keys
+that connect USER and TRACKED_PRODUCT. The relations are designed to
+satisfy First Normal Form (1NF), Second Normal Form (2NF), and Third
+Normal Form (3NF).
+
+![eBay Product Tracker Relational Schema](images/relations.png)
+
+**First Normal Form (1NF):**
+
+Both relations are in 1NF because each attribute contains a single value
+and there are no repeating groups.
+
+**Second Normal Form (2NF):**
+
+Both relations are in 2NF because they use single-attribute primary keys.
+Therefore, there are no partial dependencies on a composite primary key.
+
+**Third Normal Form (3NF):**
+
+Both relations are in 3NF because the non-key attributes depend on their
+respective primary keys and not on other non-key attributes.
