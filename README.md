@@ -50,3 +50,29 @@ Therefore, there are no partial dependencies on a composite primary key.
 
 Both relations are in 3NF because the non-key attributes depend on their
 respective primary keys and not on other non-key attributes.
+
+##Database Implementation
+
+The eBay Product Tracker database was implemented using SQLite.
+
+The database contains two tables:
+
+- **USER:** Stores registered users' information, including their names,
+  email addresses, and password fields.
+
+- **TRACKED_PRODUCT:** Stores the products users want to track, including
+  product names, search terms, categories, and target prices.
+
+The tables have a one-to-many relationship. One user can track multiple
+products, while each tracked product belongs to one user.
+
+### SQL Schema
+[View SQL Schema](database/schema.sql)
+
+### Database Screenshots
+
+**Table Creation**
+![Successful Table Creation](database/screenshots/table_creation.png)
+
+**Created Tables**
+![Created Tables](database/screenshots/created_tables.png)
